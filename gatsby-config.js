@@ -8,11 +8,12 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/blog-it-engineer",
   siteMetadata: {
     title: `ITエンジニアのメモ帳`,
     author: {
       name: `dola963ke`,
-      summary: `Sierでシステムエンジニアとして働いています. `,
+      summary: `SIerでシステムエンジニアとして働いています. `,
     },
     description: `ITエンジニアのための業務に役立つ知識と経験をアウトプットします。`,
     social: {
