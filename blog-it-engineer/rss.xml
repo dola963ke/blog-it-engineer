@@ -1,24 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ITエンジニアのための業務に役立つ知識と経験をアウトプットします。]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Jun 2023 22:55:20 GMT</lastBuildDate><item><title><![CDATA[GitHubとGatsbyでブログを公開する]]></title><description><![CDATA[概要 この記事では,
-GitHubから提供されている静的サイトのホスティングサービスである「GitHub Pages」
-と
-Reactベースの静的サイトジェネレータである
-Gatsbyの公式ブログスターター「Gatsby's Blog Starter…]]></description><link>null/20230518_01/</link><guid isPermaLink="false">null/20230518_01/</guid><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;概要&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ITエンジニアのための業務に役立つ知識と経験をアウトプットします。]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Aug 2023 08:50:37 GMT</lastBuildDate><item><title><![CDATA[LinuCレベル1 Version 10.0 Exam 101 の受験]]></title><description><![CDATA[概要 この記事では,
+LinuCレベル1 認定を取得するための試験の1つである101試験について,
+勉強過程と受験方法について記載します。]]></description><link>null/linuc-level1-exam-101/</link><guid isPermaLink="false">null/linuc-level1-exam-101/</guid><pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;概要&lt;/h1&gt;
 &lt;p&gt;この記事では,
-GitHubから提供されている静的サイトのホスティングサービスである「GitHub Pages」
+LinuCレベル1 認定を取得するための試験の1つである101試験について,
+勉強過程と受験方法について記載します。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHubとGatsbyでブログを公開する]]></title><description><![CDATA[概要 この記事では,
+GitHub から提供されている静的サイトのホスティングサービスである「GitHub Pages」
 と
-Reactベースの静的サイトジェネレータである
-Gatsbyの公式ブログスターター「Gatsby&apos;s Blog Starter」
+React ベースの静的サイトジェネレータである
+Gatsby の公式ブログスターター
+Gatsby Starter Blog…]]></description><link>null/github_and_gatsby/</link><guid isPermaLink="false">null/github_and_gatsby/</guid><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;概要&lt;/h1&gt;
+&lt;p&gt;この記事では,
+GitHub から提供されている静的サイトのホスティングサービスである「GitHub Pages」
+と
+React ベースの静的サイトジェネレータである
+Gatsby の公式ブログスターター
+&lt;strong&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog&quot;&gt;Gatsby Starter Blog&lt;/a&gt;&lt;/strong&gt;
 を利用してブログを無料で公開する方法を記載します。
 具体的には下記の内容について説明します。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Gatsby&apos;s Blog Starterの環境構築&lt;/li&gt;
+&lt;li&gt;Gatsby Starter Blog の環境構築&lt;/li&gt;
 &lt;li&gt;トップページと記事の編集方法&lt;/li&gt;
-&lt;li&gt;GitHub Pagesでの公開手順&lt;/li&gt;
+&lt;li&gt;GitHub Pages での公開手順&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Gatsby&apos;s Blog Starterの環境構築&lt;/h1&gt;
-&lt;h2&gt;Gatsby&apos;s Blog Starterとは&lt;/h2&gt;
+&lt;p&gt;以下を前提条件としています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub のアカウントを作成済み&lt;/li&gt;
+&lt;li&gt;開発環境は Windwos 11 Home 22H2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Gatsby Starter Blog の環境構築&lt;/h1&gt;
+&lt;h2&gt;Gatsby&apos;s Starterとは&lt;/h2&gt;
+&lt;p&gt;(Gatsby&apos;s Starter)[&lt;a href=&quot;https://www.gatsbyjs.com/starters/&quot;&gt;https://www.gatsbyjs.com/starters/&lt;/a&gt;] は、
+既に設定された機能をもつ Gatsby サイトのことです。
+&lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog&quot;&gt;gatsby-starter-blog&lt;/a&gt; は、
+ブログの基本設定や
+RSS、GoogleAnalytics、コードのシンタックスハイライト、
+サイトのmetaタグ設定など、
+ブログを始めるために必要な設定が行われています。
+GatsbyJS は React.js をベースにした静的サイトジェネレーターであり、React.js の機能を利用して、
+高速でSEO対策もしやすいWebサイトを作成することができます。&lt;/p&gt;
 &lt;h2&gt;環境の構築手順&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;gatsby-start-blog&lt;/a&gt;をダウンロード&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://learn.microsoft.com/ja-jp/windows/wsl/&quot;&gt;WSL2 (Windows Subsystem for Linux)&lt;/a&gt; のインストールと設定&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl&quot;&gt;Visual Studio Code WSL&lt;/a&gt; のインストール&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;ローカル環境での動作確認&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nvm-sh/nvm#installing-and-updating&quot;&gt;nvm&lt;/a&gt; のインストール&lt;/li&gt;
+&lt;li&gt;node.js のインストール&lt;/li&gt;
+&lt;li&gt;gatsby のインストール&lt;/li&gt;
+&lt;li&gt;gatsby の動作確認&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1&gt;トップページとブログ記事の編集方法&lt;/h1&gt;
 &lt;h2&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;/h2&gt;
