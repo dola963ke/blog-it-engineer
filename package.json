@@ -39,7 +39,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public --repo git@github.com:dola963ke/blog-it-engineer.git --dest blog-it-engineer",
+    "deploy-clean": "gatsby build --prefix-paths && gh-pages-clean gh-pages -d public --repo https://github.com/dola963ke/blog-it-engineer.git --dest blog-it-engineer",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public --repo https://github.com/dola963ke/blog-it-engineer.git --dest blog-it-engineer",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
